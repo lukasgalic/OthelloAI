@@ -24,11 +24,19 @@ int main(void)
 
     if (choice == 'p' || choice == 'P')
     {
-        human_strategy(board);
+        while (1)
+        {
+            human_strategy(board, 'B');
+            random_strategy(board, 'W');
+        }
     }
     else if (choice == 'r' || choice == 'R')
     {
-        random_strategy(board);
+        while (1)
+        {
+            random_strategy(board, 'B');
+            random_strategy(board, 'W');
+        }
     }
     else
     {

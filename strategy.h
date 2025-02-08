@@ -3,10 +3,10 @@
 
 #include "config.h"
 
-void human_strategy(char board[SIZE][SIZE]);
+void human_strategy(char board[SIZE][SIZE], char player);
 
-void random_strategy(char board[SIZE][SIZE]);
+void random_strategy(char board[SIZE][SIZE], char player);
 
-void optimal_strategy(char board[SIZE][SIZE]);
+void optimal_strategy(char board[SIZE][SIZE], char player);
 
 #endif
